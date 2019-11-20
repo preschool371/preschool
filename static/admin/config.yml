@@ -1,0 +1,166 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: static/img
+public_folder: /img
+
+
+media_library:
+  name: cloudinary
+  config:
+    multiple: true
+    default_transformations:
+              -   - fetch_format: auto
+                    quality: auto
+                  - width: 1200
+                    crop: fill
+    cloud_name: przedszkole371
+    api_key: 539484399365955
+
+
+collections:
+  - name: "pages"
+    label: "Strony"
+    files:
+      - file: "src/pages/index.md"
+        label: "Strona główna"
+        name: "home"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+          - {label: "Tytuł", name: title, widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+      - file: "src/pages/o-nas/index.md"
+        label: "O nas"
+        name: "about"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+      - file: "src/pages/grupy/index.md"
+        label: "Grupy"
+        name: "groups"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "groups-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Grupy", name: "groups", widget: "object", fields: [{label: "Nagłówek", name: "heading", widget: "string"},{label: "Grupy", name: "groups", widget: list, fields: [{label: "Group name", name: "group_name", widget: "string"}, {label: "Opis", name: "description", widget: "string"}, {label: "Wychowawca", name: "group_teacher", widget: "string"}]}]}
+      
+      - file: "src/pages/koncepcja-pracy-przedszkola/index.md"
+        label: "Koncepcja pracy przedszkola"
+        name: "mission"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "mission-page"}
+          - {label: "Tytuł", name: title, widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+      
+      - file: "src/pages/dzien-w-przedszkolu/index.md"
+        label: "Dzień w przedszkolu"
+        name: "preschool_day"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "mission-page"}
+          - {label: "Tytuł", name: title, widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+      - file: "src/pages/zajecia/index.md"
+        label: "Zajęcia"
+        name: "classes"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "classes-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+     
+      - file: "src/pages/zajecia-dodatkowe/index.md"
+        label: "Zajęcia dodatkowe"
+        name: "schedule"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "schedule-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Harmonogram", name: "schedule", widget: "object", fields: [{label: "Nagłówek", name: "heading", widget: "text"} ,{label: "Opis", name: "description", widget: "text"}, {label: "Grupy", name: "groups", widget: "list", fields: [{label: "Nazwa grupy", name: "group_name", widget: "text"}, {label: "opis", name: "group_details", widget: string}, {label: "Zajęcia", name: "items", widget: list, fields: [{label: "Nazwa zajęcia", name: "classes", widget: "text"}, {label: "Termin zajęć", name: "class_time1", widget: "text"}, {label: "Termin zajęć", name: "class_time2", widget: "text"}, {label: "Prowadzący", name: "class_teacher", widget: "text"}]}]}]}
+
+      - file: "src/pages/harmonogram-imprez/index.md"
+        label: "Harmonogram imprez"
+        name: "events"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "mission-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+      - file: "src/pages/roczny-plan-pracy/index.md"
+        label: "Roczny plan pracy"
+        name: "plan"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "mission-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+          - {label: "Plan pracy", name: "tasks", widget: "list", fields: [{label: "nazwa zadania", name: "task_name", widget: "string"}, {label: "cele zadania", name: "task_aims", widget: "markdown"}, {label: "cele szczegółowe zadania", name: "task_aims_detailed", widget: "markdown"}, {label: "działania", name: "activities", widget: "list", fields: [{label: "nazwa działania", name: "activity_name", widget: "markdown"}, {label: "termin realizacji", name: "activity_due", widget: "string"}, {label: "osoba odpowiedzialna", name: "person_in_charge", widget: "string"}, {label: "komentarz", name: "comments", widget: "string", required: false, default: "brak"}]}]}
+          - {label: "Nota końcowa", name: "final_note", widget: "string"}
+    
+      - file: "src/pages/rodo/index.md"
+        label: "Rodo"
+        name: "gpr"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "gpr-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+      - file: "src/pages/polityka-prywatności/index.md"
+        label: "Polityka prywatności"
+        name: "cookies"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "gpr-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
+
+      - file: "src/pages/kontakt/index.md"
+        label: "Kontakt"
+        name: "contact"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Podtytuł", name: "subtitle", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Dyrektor placówki", name: "head", widget: "string"}
+          - {label: "email 1", name: "e_mail_1", widget: "string"}
+          - {label: "email 2", name: "e_mail_2", widget: "string"}
+          - {label: "telefon", name: "phone", widget: "string"}
+  - name: "notifications"
+    label: "Aktualności"
+    folder: "src/pages/aktualnosci"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: "{{year}}-{{month}}-{{day}}-{{title}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "article-page"}
+      - {label: "Tytuł", name: "title", widget: "string"}
+      - {label: "Adres www", name: "slug", widget: "hidden", default: "{{title}}"}
+      - {label: "Data publikacji", name: "date", widget: "datetime"}
+      - {label: "Opis", name: "meta_description", widget: "hidden", default: "{{title}}"}
+      - {label: "Okładka", name: "cover", widget: "image", required: false, allow_multiple: false, media_library: {config: {multiple: false, default_transformations:[{width: 600}]}}}
+      - {label: "Treść", name: "body", widget: "markdown"}
+      - {label: "Dodaj zdjęcia", name: "album", widget: "image", allow_multiple: true, required: false}
+
+
+  - name: "galeria"
+    label: "Galeria"
+    folder: "src/pages/galeria"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: "{{year}}-{{month}}-{{day}}-{{title}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "album-page"}
+      - {label: "Tytuł", name: "title", widget: "string"}
+      - {label: "Adres www", name: "slug", widget: "hidden", default: "{{title}}"}
+      - {label: "Opis", name: "meta_description", widget: "hidden", default: "{{title}}"}
+      - {label: "Data publikacji", name: "date", widget: "datetime"}
+      - {label: "Okładka", name: "cover", widget: "image", allow_multiple: false, media_library: {config: { default_transformations:[{width: 600}]}}}
+      - {label: "Dodaj zdjęcia", name: "album", widget: "image", allow_multiple: true}
+      - {label: "Treść", name: "body", widget: "markdown", required: false}

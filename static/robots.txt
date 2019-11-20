@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: */admin/
+Disallow: */tags/
+
+sitemap: https://pensive-northcutt-19b150.netlify.com/sitemap.xml
