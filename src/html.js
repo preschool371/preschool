@@ -10,7 +10,7 @@ export default class HTML extends Component {
       <html lang='pl' className='has-navbar-fixed-top'>
         <head>
           <meta charSet='utf-8' />
-          <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
+          <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />
           <meta httpEquiv='Cache-control' content='public' max-age='31557600' />
           {this.props.headComponents}
           <link rel='shortcut icon' href={favicon} />
