@@ -18,7 +18,6 @@ export default class HTML extends Component {
           <link rel='icon' type='image/png' sizes='32x32' href={favicon32} />
           <link rel='icon' type='image/png' sizes='16x16' href={favicon16} />
           <link rel='manifest' href='/manifest.webmanifest' />
-          <link rel='preload' href='https://res.cloudinary.com/przedszkole371/image/upload/v1570191027/Strona%20g%C5%82%C3%B3wna/background-hero.jpg' as='image' />
           <link href='https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300&display=auto' rel='stylesheet' />
         </head>
         <body>
