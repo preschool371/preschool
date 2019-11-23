@@ -33,7 +33,7 @@ const EventsPageTemplate = ({ title, content, contentComponent, events }) => {
                 <a href='https://calendar.google.com/calendar/b/3?cid=cXBwZXBzamV0N25sNmloNnZraHVnbWdmcWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'><FontAwesomeIcon icon={faCalendarAlt} className='custom-width' />
                   <p className='is-inline-block'>dadaj kalendarz</p>
                 </a>
-                <Calendar />
+                <Calendar events={events} />
               </div>
             </div>
           </div>

@@ -1,53 +1,23 @@
 import React, { Component } from 'react'
-import axios from 'axios'
-import moment from 'moment'
-
-const yesterday = moment().subtract(1, 'days').toISOString()
-let url = `https://www.googleapis.com/calendar/v3/calendars/${process.env.GATSBY_CALENDAR_ID}/events?timeMin=${yesterday}&key=${process.env.GATSBY_API_KEY}`
 
 class Calendar extends Component {
   state = {
-    loading: false,
-    error: false,
-    events: [],
-    today: new Date(),
-  }
-
-  fetchEvents = () => {
-    this.setState({ loading: true })
-    axios
-      .get(url)
-      .then(resp => {
-        this.setState({
-          loading: false,
-          events: resp.data.items,
-        })
-      })
-      .catch(error => {
-        this.setState({ loading: false, error })
-      })
-  }
-
-  componentDidMount () {
-    this.fetchEvents()
+    events: this.props.events,
   }
 
   render () {
+    const locale = new Intl.DateTimeFormat('pl-PL', {month: 'long', hour: 'numeric', minute: '2-digit'})
     let eventsList = this.state.events.map(event => {
-      let start = event.start.dateTime || event.start.date
-      let allDay = event.start.date
-      let startDate = new Date(start)
-      return { name: event.summary, startDate: startDate, id: event.id, allday: allDay }
+      return { name: event.node.summary, startDate: new Date(event.node.start), endDate: new Date(event.node.end) }
     })
 
     eventsList.sort((e1, e2) => e1.startDate > e2.startDate ? 1 : -1)
-
-    let sortedEvents = eventsList.map(event => {
-      return (<tr key={event.id}>
+    let sortedEvents = eventsList.map((event, index) => {
+      return (<tr key={index}>
         <td>
           <p className='has-text-centered'>{event.startDate.getDate()}</p>
-          <p className='has-text-centered'>{event.startDate.toLocaleString('pl-PL', { month: 'long' })}</p>
-          {!event.allday ? <p className='has-text-centered'>godz. {event.startDate.toLocaleString('pl-PL', { hour: 'numeric', minute: '2-digit' })}</p> : null }
+          <p className='has-text-centered'>{locale.format(event.startDate)}</p>
+          {(event.startDate.getHours() !== 0) ? <p className='has-text-centered'>godz. {locale.format(event.startDate)}</p> : null }
         </td>
         <td>
           <p className='has-text-centered'>{event.name}</p>
