@@ -36,7 +36,7 @@ module.exports = {
       resolve: `gatsby-source-ical`,
       options: {
         name: `events`,
-        url: `${process.env.GATSBY_CALENDAR_ID}`,
+        url: `https://calendar.google.com/calendar/ical/qppepsjet7nl6ih6vkhugmgfqk%40group.calendar.google.com/public/basic.ics`,
       },
     },
     'gatsby-plugin-sharp',
