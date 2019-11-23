@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../components/Content'
-import Share from '../components/Share'
 import Layout from '../components/Layout'
 import AlbumTemplate from '../components/AlbumTemplate'
 
@@ -22,11 +21,6 @@ const AlbumPage = ({ data }) => {
                 meta_desc={album.frontmatter.meta_description}
                 title={album.frontmatter.title}
                 images={album.frontmatter.album ? album.frontmatter.album : null}
-              />
-              <Share
-                title={album.frontmatter.title}
-                slug={album.fields.slug}
-                excerpt={album.frontmatter.meta_description}
               />
               <hr />
             </div>

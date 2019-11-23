@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import {graphql} from 'gatsby'
 import {HTMLContent} from '../components/Content'
 import ArticleTemplate from '../components/ArticleTemplate'
-import Share from '../components/Share'
 import Layout from '../components/Layout'
 
 const ArticlePage = ({data}) => {
@@ -21,11 +20,6 @@ const ArticlePage = ({data}) => {
                 meta_desc={post.frontmatter.meta_description}
                 title={post.frontmatter.title}
                 images={post.frontmatter.album ? post.frontmatter.album : null}
-              />
-              <Share
-                title={post.frontmatter.title}
-                slug={post.fields.slug}
-                excerpt={post.frontmatter.meta_description}
               />
               <hr />
             </div>
