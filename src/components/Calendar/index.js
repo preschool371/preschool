@@ -6,7 +6,8 @@ class Calendar extends Component {
   }
 
   render () {
-    const locale = new Intl.DateTimeFormat('pl-PL', {month: 'long', hour: 'numeric', minute: '2-digit'})
+    const local = new Intl.DateTimeFormat('pl-PL', {month: 'long'})
+    const localHour = new Intl.DateTimeFormat('pl-PL', {hour: 'numeric', minute: '2-digit'})
     let eventsList = this.state.events.map(event => {
       return { name: event.node.summary, startDate: new Date(event.node.start), endDate: new Date(event.node.end) }
     })
@@ -16,8 +17,8 @@ class Calendar extends Component {
       return (<tr key={index}>
         <td>
           <p className='has-text-centered'>{event.startDate.getDate()}</p>
-          <p className='has-text-centered'>{locale.format(event.startDate)}</p>
-          {(event.startDate.getHours() !== 0) ? <p className='has-text-centered'>godz. {locale.format(event.startDate)}</p> : null }
+          <p className='has-text-centered'>{local.format(event.startDate)}</p>
+          {(event.startDate.getHours() !== 0) ? <p className='has-text-centered'>godz. {localHour.format(event.startDate)}</p> : null }
         </td>
         <td>
           <p className='has-text-centered'>{event.name}</p>
