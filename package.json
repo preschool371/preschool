@@ -1,6 +1,10 @@
 {
   "name": "preschool",
   "description": "Preschool page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/preschool371/preschool.git"
+  },
   "author": "miedzyslowami",
   "version": "1.0.0",
   "license": "MIT",
