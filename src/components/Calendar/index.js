@@ -16,7 +16,7 @@ class Calendar extends Component {
         <td>
           <p className='has-text-centered'>{event.startDate.getDate()}</p>
           <p className='has-text-centered'>{event.startDate.toLocaleString('pl-PL', { month: 'long' })}</p>
-          {(event.startDate.getHours() >= 2) ? <p className='has-text-centered'>godz. {event.startDate.toLocaleString('pl-PL', { hour: 'numeric', minute: '2-digit' })}</p> : null }
+          {(event.startDate.getHours() === event.endDate.getHours()) ? <p className='has-text-centered'>godz. {event.startDate.toLocaleString('pl-PL', { hour: 'numeric', minute: '2-digit' })}</p> : null }
         </td>
         <td>
           <p className='has-text-centered'>{event.name}</p>
