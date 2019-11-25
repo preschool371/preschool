@@ -9,7 +9,7 @@ module.exports = {
   userTwitter: 'przedszkole nr 371 w Warszawie',
   userLocation: 'Warszawa, Poland',
   userDescription: '',
-  copyright: 'Copyright © Gatsby starter under MIT License', // Copyright string for the footer of the website and RSS feed.
+  copyright: '© Gatsby starter', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#f9ba47', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
 }
