@@ -35,7 +35,7 @@ const Footer = () => {
           <p>
             {config.copyright}
           </p>
-          <p>Powered by <a href='https://www.gatsbyjs.org' target='_blank' rel='noopener'>Gatsby</a> and <a href='https://www.netlifycms.org' target='_blank' rel='noopener'>Netlify CMS</a></p>
+          <p>Powered by <a href='https://www.gatsbyjs.org' target='_blank' rel='noopener'>Gatsby</a>,<a href='https://www.netlifycms.org' target='_blank' rel='noopener'>Netlify CMS</a>,<a href='https://github.com/' target='_blank' rel='noopener'>Github</a> and <a href='https://cloudinary.com/' target='_blank' rel='noopener'>Cloudinary</a></p>
         </div>
       </div>
     </footer>
