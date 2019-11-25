@@ -97,6 +97,7 @@ $color5: #cd9342;
 
 .hero.is-primary .title.transparent-heading {
   color: transparent;
+  user-select: none;
 }
 
 a.navbar-item:hover {
