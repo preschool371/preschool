@@ -1,6 +1,6 @@
 ---
 templateKey: album-page
-title: Kodowanie na dywanie - Smerfy
+title: Kodowanie na dywanie u Smerfów
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-11-27T19:14:59.514Z
