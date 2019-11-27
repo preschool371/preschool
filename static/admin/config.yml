@@ -161,6 +161,6 @@ collections:
       - {label: "Adres www", name: "slug", widget: "hidden", default: "{{title}}"}
       - {label: "Opis", name: "meta_description", widget: "hidden", default: "{{title}}"}
       - {label: "Data publikacji", name: "date", widget: "datetime"}
-       - {label: "Okładka", name: "cover", widget: "image", required: false, allow_multiple: false, media_library: {config: {multiple: false, default_transformations:[{width: 600}]}}}
+      - {label: "Okładka", name: "cover", widget: "image", required: false, allow_multiple: false, media_library: {config: {multiple: false, default_transformations:[{width: 600}]}}}
       - {label: "Dodaj zdjęcia", name: "album", widget: "image", allow_multiple: true}
       - {label: "Treść", name: "body", widget: "markdown", required: false}
