@@ -4,8 +4,9 @@ title: Fabryka Elfów - Misie
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-11-27T19:00:43.797Z
-cover: >-
-  https://res.cloudinary.com/przedszkole371/image/upload/v1574881422/Albumy%20zdj%C4%99%C4%87/2019/Fabryka%20Elf%C3%B3w%20-%20Misie/welliwb62ijt0roqkgod.jpg
+cover: 
+  - >-
+    https://res.cloudinary.com/przedszkole371/image/upload/v1574881422/Albumy%20zdj%C4%99%C4%87/2019/Fabryka%20Elf%C3%B3w%20-%20Misie/welliwb62ijt0roqkgod.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574881496/Albumy%20zdj%C4%99%C4%87/2019/Fabryka%20Elf%C3%B3w%20-%20Misie/bvmsslrvtosaatopu1ma.jpg

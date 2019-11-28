@@ -4,8 +4,9 @@ title: Fabryka Elfów - Smerfy
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-11-26T11:13:47.977Z
-cover: >-
-  https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574881063/Albumy%20zdj%C4%99%C4%87/2019/Fabryka%20elf%C3%B3w%20-%20Smerfy/f4dpo27xi9aeghxuib8g.jpg
+cover: 
+  - >-
+    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574881063/Albumy%20zdj%C4%99%C4%87/2019/Fabryka%20elf%C3%B3w%20-%20Smerfy/f4dpo27xi9aeghxuib8g.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574881075/Albumy%20zdj%C4%99%C4%87/2019/Fabryka%20elf%C3%B3w%20-%20Smerfy/oowcxrbmo8xxl5vgzif5.jpg
