@@ -4,7 +4,9 @@ title: Dzień Pluszowego Misia
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-11-25T10:56:38.310Z
-cover: 'https://res.cloudinary.com/przedszkole371/image/upload/v1574849047/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20Pluszowego%20Misia/cfhbwcceqos4bvr9rjq5.jpg'
+cover: 
+  - >-
+    https://res.cloudinary.com/przedszkole371/image/upload/v1574849047/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20Pluszowego%20Misia/cfhbwcceqos4bvr9rjq5.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574849082/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20Pluszowego%20Misia/llb3gfuifiegt06vpype.jpg
