@@ -4,9 +4,7 @@ title: Procedura przyprowadzania i odbioru dzieci z przedszkola
 slug: '{{title}}'
 date: 2019-11-18T17:13:27.949Z
 meta_description: '{{title}}'
-cover:
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574097893/Albumy%20zdj%C4%99%C4%87/2019/paragraf1/rdvnvcrtucflz8fukbqt.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574097893/Albumy%20zdj%C4%99%C4%87/2019/paragraf1/rdvnvcrtucflz8fukbqt.jpg'
 ---
 ## PROCEDURA PRZYPROWADZANIA  I ODBIERANIA DZIECI Z PRZEDSZKOLA NR 371 W WARSZAWIE UL. LENCEWICZA 5
 

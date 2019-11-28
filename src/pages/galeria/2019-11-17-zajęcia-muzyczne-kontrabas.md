@@ -4,9 +4,7 @@ title: zajęcia muzyczne - kontrabas
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-10-29T20:05:05.450Z
-cover:
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573679215/Albumy%20zdj%C4%99%C4%87/2019/Zaj%C4%99cia%20muzyczne%20-%20kontrabas/kifnxwv7ucbatd0fhxda.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573679215/Albumy%20zdj%C4%99%C4%87/2019/Zaj%C4%99cia%20muzyczne%20-%20kontrabas/kifnxwv7ucbatd0fhxda.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573679234/Albumy%20zdj%C4%99%C4%87/2019/Zaj%C4%99cia%20muzyczne%20-%20kontrabas/iu8cdqan5pocj5u90ce3.jpg

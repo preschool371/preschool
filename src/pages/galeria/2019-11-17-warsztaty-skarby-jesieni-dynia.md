@@ -4,9 +4,7 @@ title: warsztaty - "Skarby jesieni DYNIA"
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-10-28T20:00:11.867Z
-cover:
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573679041/Albumy%20zdj%C4%99%C4%87/2019/Warsztaty%20-%20%22Skarby%20jesieni%20dynia%22/lvhvadrfzcgsgicsdbdj.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573679041/Albumy%20zdj%C4%99%C4%87/2019/Warsztaty%20-%20%22Skarby%20jesieni%20dynia%22/lvhvadrfzcgsgicsdbdj.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573679078/Albumy%20zdj%C4%99%C4%87/2019/Warsztaty%20-%20%22Skarby%20jesieni%20dynia%22/sg7hlvnflvl81szpsr4t.jpg

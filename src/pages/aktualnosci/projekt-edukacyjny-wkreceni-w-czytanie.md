@@ -4,9 +4,7 @@ title: Projekt edukacyjny "Wkręceni w czytanie"
 slug: projekt-edukacyjny-wkreceni-w-czytanie
 date: 2018-03-29T03:55:49.370Z
 meta_description: Projekt edukacyjny "Wkręceni w czytanie"
-cover:
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1570192816/Albumy%20zdj%C4%99%C4%87/2018/60585336_487696438434862_4199912789201911808_n_gdbitp.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1570192816/Albumy%20zdj%C4%99%C4%87/2018/60585336_487696438434862_4199912789201911808_n_gdbitp.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1570192817/Albumy%20zdj%C4%99%C4%87/2018/DSC03716_twxgdm.jpg

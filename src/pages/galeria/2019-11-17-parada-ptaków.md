@@ -4,9 +4,7 @@ title: Parada ptaków
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-09-20T18:41:11.064Z
-cover:
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573678517/Albumy%20zdj%C4%99%C4%87/2019/Parada%20Ptak%C3%B3w/ueto65xrvqzjek52yap6.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573678517/Albumy%20zdj%C4%99%C4%87/2019/Parada%20Ptak%C3%B3w/ueto65xrvqzjek52yap6.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573678517/Albumy%20zdj%C4%99%C4%87/2019/Parada%20Ptak%C3%B3w/ueto65xrvqzjek52yap6.jpg

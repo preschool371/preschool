@@ -4,9 +4,7 @@ title: 'Dzień kundelka - zbiórka '
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-10-25T18:49:13.847Z
-cover:
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573680410/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20kundelka/l1y92q2lyj59ijedgqqx.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573680410/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20kundelka/l1y92q2lyj59ijedgqqx.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573680411/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20kundelka/twv0pa9negwe29edz1me.jpg

@@ -4,9 +4,7 @@ title: Kodowanie na dywanie w Smerfach
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-11-27T19:14:59.514Z
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/v1574882296/Albumy%20zdj%C4%99%C4%87/2019/Kodowanie%20Smerfy/xzmkkuyun4rdah0vkvny.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/v1574882296/Albumy%20zdj%C4%99%C4%87/2019/Kodowanie%20Smerfy/xzmkkuyun4rdah0vkvny.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574882296/Albumy%20zdj%C4%99%C4%87/2019/Kodowanie%20Smerfy/xzmkkuyun4rdah0vkvny.jpg
