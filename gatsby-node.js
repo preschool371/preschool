@@ -29,15 +29,6 @@ exports.createPages = ({ actions, graphql }) => {
           }
           }
         }
-        allIcal(filter: { sourceInstanceName: { eq: "events" } }) {
-          edges {
-            node {
-              start
-              end
-              summary
-            }
-          }
-        }
     }
   `).then(result => {
     if (result.errors) {
