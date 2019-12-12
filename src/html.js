@@ -12,6 +12,7 @@ export default class HTML extends Component {
           <meta charSet='utf-8' />
           <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=yes' />
           <meta httpEquiv='Cache-control' content='public' max-age='31557600' />
+          <meta name='google-site-verification' content='_8MtjayM17W5LhGHF303nmp2HWQVlKfCBDzFVzli7_A' />
           {this.props.headComponents}
           <link rel='shortcut icon' href={favicon} />
           <link rel='apple-touch-icon' sizes='180x180' href={appleTouchIcon} />
