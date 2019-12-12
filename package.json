@@ -11,7 +11,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "build": "gatsby build && node -p 'process.env.production'",
+    "build": "gatsby build && node -p 'process.env.production' ",
     "serve": "gatsby serve",
     "lint": "eslint --ext js,jsx --ignore-path .gitignore .",
     "lint:fix": "eslint --ext js,jsx --ignore-path .gitignore . --fix",
