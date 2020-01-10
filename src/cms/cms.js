@@ -1,4 +1,5 @@
-import CMS from 'netlify-cms'
+import CMS from 'netlify-cms-app'
+import cloudinary from 'netlify-cms-media-library-cloudinary'
 import '../assets/sass/index.scss'
 import HomePagePreview from './preview-templates/HomePagePreview'
 import AboutPagePreview from './preview-templates/AboutPagePreview'
@@ -13,6 +14,8 @@ import ClassesPagePreview from './preview-templates/ClassesPagePreview'
 import SchedulePagePreview from './preview-templates/SchedulePagePreview'
 import EventsPagePreview from './preview-templates/EventsPagePreview'
 
+CMS.init()
+CMS.registerMediaLibrary(cloudinary)
 CMS.registerPreviewTemplate('home', HomePagePreview)
 CMS.registerPreviewTemplate('gpr', GPRPagePreview)
 CMS.registerPreviewTemplate('cookies', GPRPagePreview)
