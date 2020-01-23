@@ -39,6 +39,6 @@ jobs:
       - run: yarn run build
 
       - run:
-        command: node deploy.js && node -p 'process.env.production'
-        no_output_timeout: 45m
-
+          name: deploy
+          command: node deploy.js && node -p 'process.env.production'
+          no_output_timeout: 60m
