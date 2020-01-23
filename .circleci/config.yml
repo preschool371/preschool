@@ -37,6 +37,6 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
       
       - run: yarn run build
-      
-      - run: yarn run ftp-deploy
+
+      - run: yarn run deploy
 
