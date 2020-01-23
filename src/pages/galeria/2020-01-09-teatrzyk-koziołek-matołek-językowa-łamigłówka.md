@@ -1,10 +1,10 @@
 ---
 templateKey: album-page
-title: teatrzyk ""Koziołek Matołek" - językowa łamigłówka
+title: teatrzyk "Koziołek Matołek" - językowa łamigłówka
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2020-01-09T10:31:37.412Z
-cover: 
+cover:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/v1578565729/Albumy%20zdj%C4%99%C4%87/2020/teatrzyk%20kozio%C5%82ek%20mato%C5%82ek/sbzxrdwdmck7fnjxgx5v.jpg
 album:
