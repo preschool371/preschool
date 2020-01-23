@@ -4,9 +4,8 @@ title: Sale w przedszkolu
 slug: sale-w-przedszkolu
 meta_description: Sale w przedszkolu
 date: 2019-10-04T14:15:51.799Z
-cover:
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1570198519/Zdj%C4%99cia%20przedszkola/Sale/DSC00058_resize_zq68gm.jpg
+cover: >-
+  https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1570198519/Zdj%C4%99cia%20przedszkola/Sale/DSC00058_resize_zq68gm.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1570198520/Zdj%C4%99cia%20przedszkola/Sale/DSC00069_resize_il2zg8.jpg

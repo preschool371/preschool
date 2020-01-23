@@ -12,9 +12,8 @@ meta_description: >-
   Z całego serca dziękujemy przedstawicielom straży za przybycie i poświęcenie
   nam swojego cennego czasu.
 date: 2019-10-18T20:35:14.713Z
-cover:
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573683186/Albumy%20zdj%C4%99%C4%87/2019/Wizyta%20stra%C5%BCacy/yfasx8pf4u8xnfkugyxz.jpg
+cover: >-
+  https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573683186/Albumy%20zdj%C4%99%C4%87/2019/Wizyta%20stra%C5%BCacy/yfasx8pf4u8xnfkugyxz.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573683222/Albumy%20zdj%C4%99%C4%87/2019/Wizyta%20stra%C5%BCacy/cn8poj41fzzdznfscwm6.jpg

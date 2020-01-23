@@ -4,9 +4,8 @@ title: Wycieczka do Centrum Nauki Kopernika - Tygryski
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-11-29T17:25:51.879Z
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/v1575220947/Albumy%20zdj%C4%99%C4%87/2019/Wycieczka%20do%20centrum%20Nauki%20Kopernika/jubjzguz8ck45lpktxwu.jpg
+cover: >-
+  https://res.cloudinary.com/przedszkole371/image/upload/v1575220947/Albumy%20zdj%C4%99%C4%87/2019/Wycieczka%20do%20centrum%20Nauki%20Kopernika/jubjzguz8ck45lpktxwu.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1575221502/Albumy%20zdj%C4%99%C4%87/2019/kopernik/bn9gbbuza0q9ho36xnfi.jpg

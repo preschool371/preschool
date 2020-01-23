@@ -4,9 +4,8 @@ title: Jasełka w Tygryskach
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2020-01-06T17:36:25.252Z
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/v1578332654/Albumy%20zdj%C4%99%C4%87/2019/jase%C5%82ka%20tygrysy/vl7qnwqpt9dtst5xdpaa.jpg
+cover: >-
+  https://res.cloudinary.com/przedszkole371/image/upload/v1578332654/Albumy%20zdj%C4%99%C4%87/2019/jase%C5%82ka%20tygrysy/vl7qnwqpt9dtst5xdpaa.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1578332682/Albumy%20zdj%C4%99%C4%87/2019/jase%C5%82ka%20tygrysy/fgtwxlzicuyccajqpgqq.jpg

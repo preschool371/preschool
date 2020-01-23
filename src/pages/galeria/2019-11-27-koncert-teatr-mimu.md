@@ -4,9 +4,8 @@ title: Koncert - "Teatr mimu"
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-11-19T10:54:28.746Z
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/v1574848932/Albumy%20zdj%C4%99%C4%87/2019/Koncert%20-%20%22Teatr%20Mimu%22/aciqv2e6vynijgpujagx.jpg
+cover: >-
+  https://res.cloudinary.com/przedszkole371/image/upload/v1574848932/Albumy%20zdj%C4%99%C4%87/2019/Koncert%20-%20%22Teatr%20Mimu%22/aciqv2e6vynijgpujagx.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574848932/Albumy%20zdj%C4%99%C4%87/2019/Koncert%20-%20%22Teatr%20Mimu%22/aciqv2e6vynijgpujagx.jpg

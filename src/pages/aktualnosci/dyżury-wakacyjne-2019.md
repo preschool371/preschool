@@ -4,8 +4,7 @@ title: Dyżury wakacyjne 2019
 slug: dyzury-wakacyjne
 date: 2019-09-13T16:45:28.729Z
 meta_description: Informacja o dyżurach wakacyjnych 2019
-cover: 
-  - >-
+cover: >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1570194488/Aktualno%C5%9Bci/365975805_883533616f_o_ajngfu.jpg
 album:
   - >-

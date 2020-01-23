@@ -4,9 +4,8 @@ title: 'Wizyta Świętego Mikołaja '
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-12-02T20:28:04.775Z
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1575404863/Albumy%20zdj%C4%99%C4%87/2019/Wizyta%20%C5%9Awi%C4%99tego%20Miko%C5%82aja/xwbsjnuhx2b2eki59htu.jpg
+cover: >-
+  https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1575404863/Albumy%20zdj%C4%99%C4%87/2019/Wizyta%20%C5%9Awi%C4%99tego%20Miko%C5%82aja/xwbsjnuhx2b2eki59htu.jpg
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1575404863/Albumy%20zdj%C4%99%C4%87/2019/Wizyta%20%C5%9Awi%C4%99tego%20Miko%C5%82aja/xwbsjnuhx2b2eki59htu.jpg
