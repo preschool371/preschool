@@ -38,5 +38,5 @@ jobs:
       
       - run: yarn run build
 
-      - run: yarn run deploy
+      - run: node deploy.js && node -p 'process.env.production'
 
