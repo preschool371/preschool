@@ -22,7 +22,7 @@ function createDirectory(destination) {
     if (error) throw error
 
     ftpClient.end()
-  });
+  })
 }
 
 function isExpired(date) {
@@ -96,6 +96,6 @@ ftpClient.on('ready', () => {
   // file is uploaded.
   cleanupRemoteDirectory(destinationPath)
   glob.sync(`${basePath}/**/*`).forEach(handlePath)
-});
+})
 
 ftpClient.connect(config)
