@@ -13,7 +13,7 @@
     "start": "npm run develop",
     "build": "gatsby build && node -p 'process.env.production' ",
     "serve": "gatsby serve",
-    "ftp-deploy": "node .circleci/deploy.js && node -p 'process.env.production'",
+    "deploy": "node .circleci/deploy.js && node -p 'process.env.production'",
     "lint": "eslint --ext js,jsx --ignore-path .gitignore .",
     "lint:fix": "eslint --ext js,jsx --ignore-path .gitignore . --fix",
     "clean": "rm -rf public/ .cache/"
