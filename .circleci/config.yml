@@ -28,8 +28,6 @@ jobs:
 
       - run: yarn install
 
-      - run: yarn run build
-
       - save_cache:
           paths:
             - node_modules
@@ -37,4 +35,8 @@ jobs:
             - package.json
             - .cache
           key: v1-dependencies-{{ checksum "package.json" }}
+      
+      - run: yarn run build
+      
+      - run: yarn run ftp-deploy
 

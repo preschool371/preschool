@@ -12,7 +12,7 @@ Uczęszcza do niej 75 dzieci podzielonych na trzy grupy: Smerfy, Misie oraz Tygr
 Nasza kadra posiada kwalifikacje pedagogiczne, oraz duże doświadczenie w pracy z najmłodszymi, co sprawia, że dzieci czują się u nas bezpiecznie. W naszej pracy wykorzystujemy wiele znanych i docenianych metod: 
 
 * metoda projektu badawczego
-* metoda dobrego staru
+* metoda dobrego startu
 * pedagogika zabawy
 
 Tworzymy też własne autorskie programy.
