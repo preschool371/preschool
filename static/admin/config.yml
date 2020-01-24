@@ -158,7 +158,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "album-page"}
       - {label: "Tytuł", name: "title", widget: "string"}
-      - {label: "Adres www", name: "slug", widget: "hidden", default: title }
+      - {label: "Adres www", name: "slug", widget: "hidden", default: "{{slug}}"}
       - {label: "Opis", name: "meta_description", widget: "hidden", default: "{{title}}"}
       - {label: "Data publikacji", name: "date", widget: "datetime"}
       - {label: "Okładka", name: "cover", widget: "image", media_library: {config: {multiple: false, default_transformations:[{width: 600}]}}}
