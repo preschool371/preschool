@@ -10,7 +10,6 @@ public_folder: /img
 media_library:
   name: cloudinary
   config:
-    multiple: true
     default_transformations:
               -   - fetch_format: auto
                     quality: auto
