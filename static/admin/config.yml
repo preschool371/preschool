@@ -161,5 +161,5 @@ collections:
       - {label: "Opis", name: "meta_description", widget: "hidden", default: "{{title}}"}
       - {label: "Data publikacji", name: "date", widget: "datetime"}
       - {label: "Okładka", name: "cover", widget: "image", media_library: {config: {name: cloudinary, multiple: false, default_transformations:[{width: 600}]}}}
-      - {label: "Dodaj zdjęcia", name: "album", widget: "image", media_library: {name: cloudinary, config: {multiple: true}}}
+      - {label: "Dodaj zdjęcia", name: "album", widget: "image", allow_multiple: true, media_library: {name: cloudinary, config: {multiple: true}}}
       - {label: "Treść", name: "body", widget: "markdown", required: false}
