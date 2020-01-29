@@ -154,7 +154,7 @@ collections:
     folder: "src/pages/galeria"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    identifier_field: "{{year}}-{{month}}-{{day}}-{{title}}"
+    identifier_field: slug
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "album-page"}
       - {label: "Tytuł", name: "title", widget: "string"}
