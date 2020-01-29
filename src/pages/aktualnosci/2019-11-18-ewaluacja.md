@@ -4,9 +4,7 @@ title: Ewaluacja
 slug: '{{title}}'
 date: 2019-11-18T12:12:49.831Z
 meta_description: '{{title}}'
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574080482/seo/xl0bzsnvotliivv0xawc.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1574080482/seo/xl0bzsnvotliivv0xawc.jpg'
 ---
 Szanowni Państwo,
 

@@ -4,9 +4,7 @@ title: Pieczony ziemniak
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-09-26T18:44:45.024Z
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573666207/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20ziemniaka/tbncawzfhifxlv64k1wg.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573666207/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20ziemniaka/tbncawzfhifxlv64k1wg.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573666224/Albumy%20zdj%C4%99%C4%87/2019/Dzie%C5%84%20ziemniaka/lsfa07qypvdvua93sv6d.jpg

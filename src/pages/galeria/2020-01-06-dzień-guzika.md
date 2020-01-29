@@ -4,9 +4,7 @@ title: Dzień Guzika
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2020-01-06T17:30:49.902Z
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/v1578331675/Albumy%20zdj%C4%99%C4%87/2019/dzie%C5%84%20guzika/rgkx5rfo506ldypdbmcp.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/v1578331675/Albumy%20zdj%C4%99%C4%87/2019/dzie%C5%84%20guzika/rgkx5rfo506ldypdbmcp.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1578331735/Albumy%20zdj%C4%99%C4%87/2019/dzie%C5%84%20guzika/jpfljogrrihjihfl2bgg.jpg

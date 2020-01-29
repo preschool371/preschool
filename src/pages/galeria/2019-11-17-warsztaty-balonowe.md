@@ -4,9 +4,7 @@ title: Warsztaty balonowe
 slug: '{{title}}'
 meta_description: '{{title}}'
 date: 2019-10-15T19:02:38.248Z
-cover: 
-  - >-
-    https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573678941/Albumy%20zdj%C4%99%C4%87/2019/Warsztaty%20balonowe/sfuvacd0mtmfnyev8cga.jpg
+cover: 'https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573678941/Albumy%20zdj%C4%99%C4%87/2019/Warsztaty%20balonowe/sfuvacd0mtmfnyev8cga.jpg'
 album:
   - >-
     https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1573678942/Albumy%20zdj%C4%99%C4%87/2019/Warsztaty%20balonowe/ekgah8m9kwbbttg18zwq.jpg
