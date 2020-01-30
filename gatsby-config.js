@@ -74,13 +74,12 @@ module.exports = {
         enableIdentityWidget: true,
         htmlTitle: `Przedszkole nr 371`,
         manualInit: true,
-        enableIdentityWidget: false,
         customizeWebpackConfig: (config, { plugins }) => {
           config.plugins.push(
             plugins.define({
               __MANIFEST_PLUGIN_HAS_LOCALISATION__: JSON.stringify('false'),
             }),
-          );
+          )
         },
       },
     },

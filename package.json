@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop && node -p 'process.env.development'",
     "start": "npm run develop",
     "build": "gatsby build && node -p 'process.env.production' ",
     "serve": "gatsby serve",
