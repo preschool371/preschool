@@ -5,7 +5,7 @@ const glob = require('glob')
 const EXPIRATION_DATE_IN_DAYS = 7
 
 const basePath = './public'
-const destinationPath = '/public_html'
+const destinationPath = '/public_html2'
 const config = {
   // We store the credentials for
   // our FTP server as environemnt
