@@ -75,7 +75,6 @@ exports.createPages = ({ actions, graphql }) => {
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
-        // pass id and gallerypath to context
         context: {
           id,
         },

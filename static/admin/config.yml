@@ -139,12 +139,11 @@ collections:
     label: "Aktualności"
     folder: "src/pages/aktualnosci"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     identifier_field: "{{year}}-{{month}}-{{day}}-{{title}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "article-page"}
       - {label: "Tytuł", name: "title", widget: "string"}
-      - {label: "Adres www", name: "slug", widget: "hidden", default: "{{title}}"}
       - {label: "Data publikacji", name: "date", widget: "datetime"}
       - {label: "Opis", name: "meta_description", widget: "hidden", default: "{{title}}"}
       - {label: "Okładka", name: "cover", widget: "image", required: false, allow_multiple: false, media_library: {config: {multiple: false, default_transformations:[{width: 600}]}}}
@@ -156,12 +155,11 @@ collections:
     label: "Galeria"
     folder: "src/pages/galeria"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     identifier_field: title
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "album-page"}
       - {label: "Tytuł", name: "title", widget: "string"}
-      - {label: "Adres www", name: "slug", widget: "hidden", default: "{{title}}"}
       - {label: "Opis", name: "meta_description", widget: "hidden", default: "{{title}}"}
       - {label: "Data publikacji", name: "date", widget: "datetime"}
       - {label: "Okładka", name: "cover", widget: "image", allow_multiple: false, media_library: {config: {name: cloudinary, multiple: false, default_transformations:[{width: 600}]}}}
