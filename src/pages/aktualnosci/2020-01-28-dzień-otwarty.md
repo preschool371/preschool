@@ -7,7 +7,7 @@ meta_description: '{{title}}'
 ---
 Drodzy rodzice, opiekunowie
 
-Nasze przedszkole zaprasza wszystkich przyszłych przedszkolaków wraz z rodzicami na **DZIEŃ OTWARTY**, który odbędzie się 07.02.2020 r. o godz. 17.00. Zapewnimy wspaniałą zabawę i możliwość obejrzenia naszej placówki. 
+Nasze przedszkole zaprasza wszystkich przyszłych przedszkolaków wraz z rodzicami na **DZIEŃ OTWARTY**, który odbędzie się 7 lutego 2020 r. o godz. 17.00. Zapewnimy wspaniałą zabawę i możliwość obejrzenia naszej placówki. 
 
 Prosimy o przyniesienie obuwia zamiennego dla dzieci.
 
