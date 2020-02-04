@@ -145,6 +145,7 @@ a.navbar-item:hover {
   .thumbnail-cover {
     height: 200px;
     width: 200px;
+    margin: auto;
     object-fit: cover;
     animation: fadein 2s;
   }
