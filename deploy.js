@@ -5,14 +5,14 @@ const glob = require('glob')
 const EXPIRATION_DATE_IN_DAYS = 7
 
 const basePath = './public'
-const destinationPath = '/public_html'
+const destinationPath = '/public_gatsby_html'
 const config = {
   // We store the credentials for
   // our FTP server as environemnt
   // variables for security reasons.
-  host: process.env.FTP_HOST_TEST,
-  password: process.env.FTP_PASSWORD_TEST,
-  user: process.env.FTP_USER_TEST,
+  host: process.env.FTP_adress,
+  password: process.env.FTP_password,
+  user: process.env.FTP_user,
 };
 
 const ftpClient = new FtpClient()
