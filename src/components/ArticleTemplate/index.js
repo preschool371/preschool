@@ -22,7 +22,6 @@ const ArticleTemplate = ({
         <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
           {title}
         </h1>
-        {/* <img src={cover} alt={title} /> */}
         <PostContent content={content} />
         {images
           ? <div className='gallery-background'>

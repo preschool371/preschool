@@ -12,7 +12,7 @@ const PostCard = ({ posts }) => {
             key={post.id}
           >
             <div className='media-content'>
-              {post.frontmatter.cover ? <img className='is-16by9 thumbnail-cover' src={post.frontmatter.cover} aria-hidden='true'/> : null}
+              {post.frontmatter.cover ? <img className='is-16by9 thumbnail-cover' src={post.frontmatter.cover} alt='' aria-hidden='true'/> : null}
               <p className='content'>
                 <h2>
                   <Link className='title is-4 is-spaced has-text-primary' to={post.fields.slug}>
