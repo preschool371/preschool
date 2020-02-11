@@ -45,6 +45,7 @@ export default class PostsPage extends Component {
             {JSON.stringify(websiteSchemaOrgJSONLD)}
           </script>
         </Helmet>
+        <main role='main'>
         <section className='section'>
           <div className='container'>
             <div className='section'>
@@ -62,12 +63,15 @@ export default class PostsPage extends Component {
             </div>
           </div>
         </section>
-        <section className='section'>
-          <div className='buttons is-centered'>
-            <PaginationLink test={first} url={previousUrl} text='poprzednia strona' />
-            <PaginationLink test={last} url={nextUrl} text='następna strona' />
-          </div>
-        </section>
+        </main>
+        <nav>
+          <section className='section'>
+            <div className='buttons is-centered'>
+              <PaginationLink test={first} url={previousUrl} text='poprzednia strona' />
+              <PaginationLink test={last} url={nextUrl} text='następna strona' />
+            </div>
+          </section>
+        </nav>
       </Layout>
     )
   }

@@ -13,38 +13,40 @@ const SchedulePageTemplate = ({
       <title>{title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
-    <section className='hero is-primary is-bold is-medium'>
-      <div className='hero-body'>
+    <main role='main'>
+      <section className='hero is-primary is-bold is-medium'>
+        <div className='hero-body'>
+          <div className='container'>
+            <div className='columns'>
+              <div className='column is-10 is-offset-1'>
+                <div className='section'>
+                  <h1 className='title transparent-heading'>
+                    {title}
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='section'>
         <div className='container'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='section'>
-                <h1 className='title transparent-heading'>
-                  {title}
-                </h1>
+          <div className='section'>
+            <div className='columns'>
+              <div className='column is-10 is-offset-1'>
+                <div className='content'>
+                  <h2 className='has-text-weight-semibold is-size-2'>
+                    {schedule.heading}
+                  </h2>
+                  <p className='is-size-5'>{schedule.description}</p>
+                  <Group_classes data={schedule.groups} />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section className='section'>
-      <div className='container'>
-        <div className='section'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='content'>
-                <h2 className='has-text-weight-semibold is-size-2'>
-                  {schedule.heading}
-                </h2>
-                <p className='is-size-5'>{schedule.description}</p>
-                <Group_classes data={schedule.groups} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </div>
 )
 

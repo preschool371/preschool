@@ -5,10 +5,10 @@ const Group_classes = ({ data }) => (
   <div>
     {data.map(classes => (
       <div key={classes.group_name} className='column' style={{ border: '1px solid #eaecee' }}>
-        <section className='section'>
-          <h4 className='has-text-centered has-text-weight-semibold'>
+        <section>
+          <h2 className='has-text-centered has-text-weight-semibold'>
             {classes.group_name}
-          </h4>
+          </h2>
           <table >
             <tbody>
               <tr>
@@ -18,7 +18,7 @@ const Group_classes = ({ data }) => (
               </tr>
               {classes.items.map((item, index) => (
                 <Fragment key={index}><tr key={index}>
-                  <td rowSpan='2' className='is-size-5 classes_name'>{item.classes}</td>
+                  <td rowSpan='2' className='classes_name'>{item.classes}</td>
                   <td> {item.class_time1}</td>
                   <td rowSpan='2' className='classes_teacher'>{item.class_teacher}</td>
                 </tr><tr key={index}><td>{item.class_time2}</td>

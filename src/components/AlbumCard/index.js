@@ -16,8 +16,8 @@ const AlbumCard = ({ albums }) => {
                   <div className='media-content'>
                     <img className='is-16by9 thumbnail-cover' src={album.frontmatter.cover} alt={'Dzieci podczas wydarzenia pt.' + album.frontmatter.title} aria-hidden='true'/>
                     <div className='content'>
-                      <p className='subtitle is-6'>{album.frontmatter.title}</p>
-                      <p className='subtitle is-7'>
+                      <p className='subtitle is-5'>{album.frontmatter.title}</p>
+                      <p className='subtitle is-6'>
                         {album.frontmatter.date}
                       </p>
                     </div>
