@@ -4,3 +4,4 @@ title: Deklaracja dostępności
 meta_description: Deklaracja dostępności
 ---
 
+Deklaracja w przygotowaniu.
