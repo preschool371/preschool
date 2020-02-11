@@ -43,6 +43,15 @@ collections:
           - {label: "Tytuł", name: "title", widget: "string"}
           - {label: "Opis", name: "meta_description", widget: "text"}
           - {label: "Treść", name: "body", widget: "markdown"}
+
+      - file: "src/pages/deklaracja-dostepnosci/index.md"
+        label: "Deklaracja dostępności"
+        name: "declaration"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "declaration-page"}
+          - {label: "Tytuł", name: "title", widget: "string"}
+          - {label: "Opis", name: "meta_description", widget: "text"}
+          - {label: "Treść", name: "body", widget: "markdown"}
       - file: "src/pages/grupy/index.md"
         label: "Grupy"
         name: "groups"
