@@ -14,7 +14,7 @@ const AlbumCard = ({ albums }) => {
               >
                 <Link className='title is-4 is-spaced has-text-primary' to={album.fields.slug}>
                   <div className='media-content'>
-                    <img className='is-16by9 thumbnail-cover' src={album.frontmatter.cover} />
+                    <img className='is-16by9 thumbnail-cover' src={album.frontmatter.cover} alt={'Dzieci podczas wydarzenia pt.' + album.frontmatter.title} aria-hidden='true'/>
                     <div className='content'>
                       <p className='subtitle is-6'>{album.frontmatter.title}</p>
                       <p className='subtitle is-7'>

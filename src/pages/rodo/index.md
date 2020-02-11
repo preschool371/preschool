@@ -47,4 +47,4 @@ Podstawa prawna powołania i funkcjonowania Inspektora:
 
 ## Informacja dotycząca wykorzystania plików "cookies"
 
-Informacje dotyczące wykorzystywanych plików "cookies" znajdą Państwo w [Polityce prywatności.](/polityka-prywatności)
+Informacje dotyczące wykorzystywanych plików "cookies" znajdą Państwo w [Polityce prywatności.](/polityka-prywatnosci)

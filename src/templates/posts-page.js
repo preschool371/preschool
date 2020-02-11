@@ -52,8 +52,8 @@ export default class PostsPage extends Component {
                 <div className='column is-10 is-offset-1'>
                   <div className='content'>
                     <div>
-                      <h2 className='has-text-weight-semibold is-size-2'>
-                        Aktualności</h2>
+                      <h1 className='has-text-weight-semibold is-size-2'>
+                        Aktualności</h1>
                       <PostCard posts={group} />
                     </div>
                   </div>

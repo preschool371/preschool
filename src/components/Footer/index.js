@@ -29,7 +29,7 @@ const Footer = () => {
             className='column navbar-item'
             to='/kontakt'>
             Kontakt </Link>
-          <div className='column navbar-item'><a href='http://przedszkole371.bip.um.warszawa.pl/default.htm' target='_blank' rel='noopener'><div role='button' className='bip-logo' aria-label='Łącze do Biuletynu Informacji Publicznej' /></a></div>
+          <div className='column navbar-item'><a href='http://przedszkole371.bip.um.warszawa.pl/default.htm' target='_blank' rel='noopener' aria-label='Łącze do Biuletynu Informacji Publicznej'><div role='button' className='bip-logo' alt='Logo Biuletynu Informacji Publicznej'/></a></div>
         </div>
         <hr />
         <div className='is-size-7'>

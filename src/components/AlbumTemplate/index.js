@@ -5,7 +5,6 @@ import ImageGallery from 'react-image-gallery'
 const AlbumTemplate = ({
   content,
   contentComponent,
-  meta_desc,
   title,
   images,
 }) => {
@@ -13,7 +12,7 @@ const AlbumTemplate = ({
   let newImages = []
   if (images) {
     images.map((image) =>
-      newImages.push({ original: image, thumbnail: image }))
+      newImages.push({ original: image, thumbnail: image, originalAlt: `Dzieci podczas wydarzenia pt.${title}`}))
   }
   return (
     <div>
