@@ -40,18 +40,18 @@ class ContactPageTemplate extends Component {
                       <p className='title is-4'>
                         <strong>Przedszkole nr 371</strong>
                       </p>
-                      <div><FontAwesomeIcon icon={faUser} className='custom-width' />
+                      <div><span aria-hidden='true'><FontAwesomeIcon icon={faUser} className='custom-width' aria-hidden='true' focusable='false' title='dyrektor placówki'/></span>
                         <p className='is-inline-block'>Dyrektor placówki: <strong>{head}</strong></p></div>
-                      <div><FontAwesomeIcon icon={faInfo} className='custom-width' />
+                      <div><FontAwesomeIcon icon={faInfo} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='nip' title='numer nip'/>
                         <p className='is-inline-block'>NIP: 522 24 24 306</p></div>
-                      <div><FontAwesomeIcon icon={faMapMarkerAlt} className='custom-width' />
+                      <div><FontAwesomeIcon icon={faMapMarkerAlt} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='address' title='adres'/>
                         <address className='is-inline-block'>ul. Lencewicza 5, 01-493 Warszawa</address></div>
-                      <div><FontAwesomeIcon icon={faPhone} className='custom-width' />
-                        <a href={'tel:' + phone}>{phone}</a></div>
-                      <div><FontAwesomeIcon icon={faEnvelope} className='custom-width' />
-                        <p className='is-inline-block'>{e_mail_1}</p></div>
-                      <div><FontAwesomeIcon icon={faEnvelope} className='custom-width' />
-                        <p className='is-inline-block'>{e_mail_2}</p></div>
+                      <div><FontAwesomeIcon icon={faPhone} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='tel' title='telefon'/>
+                        <a id='tel' href={'tel:' + phone}>{phone}</a></div>
+                      <div><FontAwesomeIcon icon={faEnvelope} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='email_1' title='email 1'/>
+                        <p className='is-inline-block' id='email_1'>{e_mail_1}</p></div>
+                      <div><FontAwesomeIcon icon={faEnvelope} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='email_2' title='email 2'/>
+                        <p className='is-inline-block' id='email_2'>{e_mail_2}</p></div>
                     </div>
                   </div>
                 </article>
@@ -65,7 +65,7 @@ class ContactPageTemplate extends Component {
                         <strong>Jak nas znaleźć?</strong>
                       </p>
                       <div className='resp-container'>
-                        <iframe className='resp-iframe' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2442.4106502884097!2d20.915653!3d52.2540876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecaff9d6d3995%3A0x309a53a336983250!2sPrzedszkole%20nr%20371!5e0!3m2!1spl!2spl!4v1568210404088!5m2!1spl!2spl' width='600' height='450' frameBorder='0' style={{ border: 0 }} allowFullscreen='' />
+                        <iframe title='lokalizacja przedszkola na mapie' className='resp-iframe' src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2442.4106502884097!2d20.915653!3d52.2540876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecaff9d6d3995%3A0x309a53a336983250!2sPrzedszkole%20nr%20371!5e0!3m2!1spl!2spl!4v1568210404088!5m2!1spl!2spl' width='600' height='450' frameBorder='0' style={{ border: 0 }} allowFullScreen='' />
                       </div>
                     </div>
                   </div>
