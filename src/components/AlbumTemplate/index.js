@@ -16,7 +16,7 @@ const AlbumTemplate = ({
   }
   
   return (
-    <main role='main'>
+    <main role='main' id='main'>
       <div>
         <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
           {title}

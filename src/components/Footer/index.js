@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer id='footer' className='footer' aria-label='stopka'>
       <div className='container'>
         <div className='columns has-text-centered'>
           <Link className='column navbar-item' to='/'>
@@ -25,12 +25,19 @@ const Footer = () => {
           <Link className='column navbar-item' to='/rodo'>
             RODO
           </Link>
+          {/* <Link className='column navbar-item' to='/deklaracja-dostepnosci'>
+            Deklaracja dostępności
+         </Link> */}
           <Link
             className='column navbar-item'
             to='/kontakt'>
             Kontakt </Link>
-          <div className='column navbar-item'><a id='BipLink' href='http://przedszkole371.bip.um.warszawa.pl/default.htm' target='_blank' rel='noopener' aria-label='Łącze do Biuletynu Informacji Publicznej'><div className='bip-logo'/></a></div>
+          <div className='column navbar-item'><a id='BipLink' href='http://przedszkole371.bip.um.warszawa.pl/default.htm' target='_blank' rel='noopener' aria-label='Łącze do Biuletynu Informacji Publicznej'><div className='bip-logo' /></a></div>
         </div>
+        <hr />
+        <p className='is-size-7'>
+        Podstrony strony www.przedszkole371.nq.pl mogą zawierać adresy skrzynek mailowych. Użytkownik korzystający z odnośnika będącego adresem e-mail zgadza się na przetwarzanie jego danych (adres e-mail oraz dobrowolnie podanych danych w wiadomości) w celu przesłania odpowiedzi na przesłane pytania. Szczegóły przetwarzania danych osobowych dostępne są w zakładce <Link to='/rodo'>RODO</Link>.
+        </p>
         <hr />
         <div className='is-size-7'>
           <p>{config.copyright} na licencji <a target='_blank' rel='license' href='https://opensource.org/licenses/mit-license.php'>MIT</a>. Zasilane przez <a href='https://www.gatsbyjs.org' target='_blank' rel='noopener'>Gatsby</a>,<a href='https://www.netlifycms.org' target='_blank' rel='noopener'>Netlify CMS</a>,<a href='https://github.com/' target='_blank' rel='noopener'>Github</a> i <a href='https://cloudinary.com/' target='_blank' rel='noopener'>Cloudinary.</a></p>

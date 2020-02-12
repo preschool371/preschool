@@ -8,7 +8,7 @@ const ClassesPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <div>
-      <main role='main'>
+      <main role='main' id='main'>
         <section className='hero is-primary is-bold is-medium'>
           <div className='hero-body'>
             <div className='container'>

@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 const NavBar = ({ toggleNavbar, isActive }) => {
   return (
-    <nav className='navbar is-fixed-top' aria-label='main navigation'>
+    <nav className='navbar is-fixed-top'>
       <div className='navbar-brand'>
         <Link to='/' className='navbar-item logo'>
           <div className='preschool-logo' aria-hidden='true' />
@@ -15,7 +15,7 @@ const NavBar = ({ toggleNavbar, isActive }) => {
           className={`button navbar-burger ${isActive ? 'is-active' : ''}`}
           data-target='navMenu'
           onClick={toggleNavbar}
-          aria-expanded={`${isActive ? 'true' : 'false'}`} aria-label='mobile navigation button'
+          aria-expanded={`${isActive ? 'true' : 'false'}`} aria-label='przycisk rozwijający nawigację na urządzeniach mobilnych'
         >
           <span />
           <span />
