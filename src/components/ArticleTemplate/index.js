@@ -17,7 +17,7 @@ const ArticleTemplate = ({
       newImages.push({ original: image, thumbnail: image }))
   }
   return (
-    <main role='main' id='main'>
+    <main role='main' id='main' tabIndex='-1'>
       <div>
         <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
           {title}

@@ -7,7 +7,7 @@ const GalleryPageTemplate = ({title, content, contentComponent}) => {
 
   return (
     <div>
-      <main role='main' id='main'>
+      <main role='main' id='main' tabIndex='-1'>
         <section className='hero is-primary is-bold is-medium'>
           <div className='hero-body'>
             <div className='container'>

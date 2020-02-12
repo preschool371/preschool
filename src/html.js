@@ -19,7 +19,7 @@ export default class HTML extends Component {
           <link rel='icon' type='image/png' sizes='32x32' href={favicon32} />
           <link rel='icon' type='image/png' sizes='16x16' href={favicon16} />
           <link rel='manifest' href='/manifest.webmanifest' />
-          <link href='https://fonts.googleapis.com/css?family=Montserrat%7COpen+Sans+Condensed:300&display=auto' rel='stylesheet' />
+          <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=auto' rel='stylesheet' />
         </head>
         <body>
           <div

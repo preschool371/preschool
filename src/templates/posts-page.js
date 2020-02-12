@@ -45,7 +45,7 @@ export default class PostsPage extends Component {
             {JSON.stringify(websiteSchemaOrgJSONLD)}
           </script>
         </Helmet>
-        <main role='main' id='main'>
+        <main role='main' id='main' tabIndex='-1'>
         <section className='section'>
           <div className='container'>
             <div className='section'>

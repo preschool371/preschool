@@ -7,7 +7,7 @@ const DeclarationPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <div>
-      <main role='main' id='main'>
+      <main role='main' id='main' tabIndex='-1'>
         <section className='section' id='a11y-wstep'>
           <div className='container'>
             <div className='columns'>

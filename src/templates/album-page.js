@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../components/Content'
 import Layout from '../components/Layout'
@@ -10,6 +11,9 @@ const AlbumPage = ({ data }) => {
 
   return (
     <Layout>
+      <Helmet>
+        <title>{album.frontmatter.title} | Przedszkole nr 371</title>
+      </Helmet>
       <section className='section'>
         <div className='container content'>
           <div className='columns'>
@@ -22,7 +26,6 @@ const AlbumPage = ({ data }) => {
                 title={album.frontmatter.title}
                 images={album.frontmatter.album ? album.frontmatter.album : null}
               />
-              <hr />
             </div>
           </div>
         </div>

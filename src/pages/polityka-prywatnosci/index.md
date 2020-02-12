@@ -1,9 +1,9 @@
 ---
 templateKey: gpr-page
-title: Polityka prywatności
+title: Polityka prywatności strony
 meta_description: Polityka prywatności
 ---
-# Polityka prywatności
+## Polityka prywatności
 
 1. Serwis zbiera w sposób automatyczny tylko informacje zawarte w plikach cookies.
 2. Pliki (cookies) są plikami tekstowymi, które przechowywane są w urządzeniu końcowym użytkownika serwisu. Przeznaczone są do korzystania ze stron serwisu. Przede wszystkim zawierają nazwę strony internetowej swojego pochodzenia, swój unikalny numer, czas przechowywania na urządzeniu końcowym. Nie zawierają one żadnych danych osobowych.

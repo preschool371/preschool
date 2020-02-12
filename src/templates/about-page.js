@@ -12,8 +12,7 @@ const AboutPage = ({data}) => {
   return (
     <Layout>
       <Helmet>
-        <title>{post.frontmatter.title}</title>
-        <meta name='description' content={post.frontmatter.meta_description} />
+        <title>{post.frontmatter.title} | Przedszkole nr 371</title>
       </Helmet>
       <AboutPageTemplate
         contentComponent={HTMLContent}

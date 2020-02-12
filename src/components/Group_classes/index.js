@@ -17,11 +17,11 @@ const Group_classes = ({ data }) => (
                 <th>prowadzący</th>
               </tr>
               {classes.items.map((item, index) => (
-                <Fragment key={index}><tr key={index}>
+                <Fragment key={item + index}><tr key={index + 'row1'}>
                   <td rowSpan='2' className='classes_name'>{item.classes}</td>
                   <td> {item.class_time1}</td>
                   <td rowSpan='2' className='classes_teacher'>{item.class_teacher}</td>
-                </tr><tr key={index}><td>{item.class_time2}</td>
+                </tr><tr key={index + 'row2'}><td>{item.class_time2}</td>
                 </tr></Fragment>
               ))}
             </tbody>

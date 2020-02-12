@@ -6,16 +6,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faInfo, faEnvelope, faPhone, faUser } from '@fortawesome/free-solid-svg-icons'
 
 class ContactPageTemplate extends Component {
-  render () {
+  render() {
     const { title, meta_description, e_mail_1, e_mail_2, phone, head, content, contentComponent } = this.props
     const PageContent = contentComponent || Content
     return (
       <div>
         <Helmet>
-          <title>{title}</title>
-          <meta name='description' content={meta_description} />
+          <title>{title} | Przedszkole nr 371</title>
         </Helmet>
-        <main role='main' id='main'>
+        <main role='main' id='main' tabIndex='-1'>
           <section className='hero is-primary is-bold is-medium'>
             <div className='hero-body'>
               <div className='container'>
@@ -40,17 +39,17 @@ class ContactPageTemplate extends Component {
                       <p className='title is-4'>
                         <strong>Przedszkole nr 371</strong>
                       </p>
-                      <div><span aria-hidden='true'><FontAwesomeIcon icon={faUser} className='custom-width' aria-hidden='true' focusable='false' title='dyrektor placówki'/></span>
+                      <div><span aria-hidden='true'><FontAwesomeIcon icon={faUser} className='custom-width' aria-hidden='true' focusable='false' title='dyrektor placówki' /></span>
                         <p className='is-inline-block'>Dyrektor placówki: <strong>{head}</strong></p></div>
-                      <div><FontAwesomeIcon icon={faInfo} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='nip' title='numer nip'/>
+                      <div><FontAwesomeIcon icon={faInfo} className='custom-width' aria-hidden='true' focusable='false' title='numer nip' />
                         <p className='is-inline-block'>NIP: 522 24 24 306</p></div>
-                      <div><FontAwesomeIcon icon={faMapMarkerAlt} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='address' title='adres'/>
+                      <div><FontAwesomeIcon icon={faMapMarkerAlt} className='custom-width' aria-hidden='true' focusable='false' title='adres' />
                         <address className='is-inline-block'>ul. Lencewicza 5, 01-493 Warszawa</address></div>
-                      <div><FontAwesomeIcon icon={faPhone} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='tel' title='telefon'/>
+                      <div><FontAwesomeIcon icon={faPhone} className='custom-width' aria-hidden='true' focusable='false' title='telefon' />
                         <a id='tel' href={'tel:' + phone}>{phone}</a></div>
-                      <div><FontAwesomeIcon icon={faEnvelope} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='email_1' title='email 1'/>
+                      <div><FontAwesomeIcon icon={faEnvelope} className='custom-width' aria-hidden='true' focusable='false' title='email 1' />
                         <p className='is-inline-block' id='email_1'>{e_mail_1}</p></div>
-                      <div><FontAwesomeIcon icon={faEnvelope} className='custom-width' aria-hidden='true' focusable='false' aria-labelledby='email_2' title='email 2'/>
+                      <div><FontAwesomeIcon icon={faEnvelope} className='custom-width' aria-hidden='true' focusable='false' title='email 2' />
                         <p className='is-inline-block' id='email_2'>{e_mail_2}</p></div>
                     </div>
                   </div>

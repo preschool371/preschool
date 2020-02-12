@@ -20,19 +20,16 @@ class Layout extends Component {
 
   render () {
     return (
-      <><Helmet>
-        <title>{config.siteTitle}</title>
-        <meta name='description' content={config.siteDescription} />
-      </Helmet>
-      <nav className='quick-access-nav' aria-label='Skróty'>
+      <><nav className='quick-access-nav' aria-label='Skróty'>
           <ul>
-            <li><Link className='skip-link' to='#main'>Przejdź do zawartości</Link></li>
+            <li><a className='skip-link' href='#main'>Przejdź do zawartości</a></li>
             <li><Link className='skip-link' to='/kontakt'>Przejdź do strony Kontakt</Link></li>
             {/* <li><Link className='skip-link' to='/deklaracja-dostepnosci'>Przejdź do Deklaracji dostępności</Link></li> */}
-            <li><Link className='skip-link' to='#footer'>Przejdź do stopki</Link></li>
+            <li><a className='skip-link' href='#footer'>Przejdź do stopki</a></li>
+            <li><Link className='skip-link' to='/'>Przejdź do strony głównej</Link></li>
           </ul>
       </nav>
-      <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} /><>{this.props.children}</><CookieConsent buttonText='Zamknij'>Strona korzysta z plików cookies w celu realizacji usług i zgodnie z <Link to='/polityka-prywatności'>Polityką Prywatności</Link>. Możesz określić warunki przechowywania lub dostępu do plików cookies w Twojej przeglądarce.
+      <NavBar isActive={this.state.isActive} toggleNavbar={() => this.toggleNavbar()} /><>{this.props.children}</><CookieConsent buttonText='Zamknij'>Strona korzysta z plików cookies w celu realizacji usług i zgodnie z <Link className='policy-link' to='/polityka-prywatności'>Polityką Prywatności</Link>. Możesz określić warunki przechowywania lub dostępu do plików cookies w Twojej przeglądarce.
       </CookieConsent><Footer /></>
     )
   }

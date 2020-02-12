@@ -13,7 +13,7 @@ const PostCard = ({ posts }) => {
           >
             <div className='media-content'>
               {post.frontmatter.cover ? <img className='is-16by9 thumbnail-cover' src={post.frontmatter.cover} alt='' aria-hidden='true'/> : null}
-              <p className='content'>
+              <div className='content'>
                 <h2>
                   <Link className='title is-4 is-spaced has-text-primary' to={post.fields.slug}>
                   {post.frontmatter.title}
@@ -30,7 +30,7 @@ const PostCard = ({ posts }) => {
                     czytaj dalej →
                   </Link>
                 </p>
-              </p>
+              </div>
             </div>
           </article>
         ))}

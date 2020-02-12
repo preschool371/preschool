@@ -6,7 +6,7 @@ const PlanPageTemplate = ({ title, content, contentComponent, tasks, finalNote }
   const PageContent = contentComponent || Content
   return (
     <div>
-      <main role='main' id='main'>
+      <main role='main' id='main' tabIndex='-1'>
         <section className='hero is-primary is-bold is-medium'>
           <div className='hero-body'>
             <div className='container'>
@@ -52,8 +52,8 @@ const PlanPageTemplate = ({ title, content, contentComponent, tasks, finalNote }
                     </tr>
                   </thead>
                   <tbody>
-                    {tasks.activities.map(activity => (
-                      <tr key={activity}>
+                    {tasks.activities.map((activity, index) => (
+                      <tr key={activity + index}>
                         <td>{activity.activity_name}</td>
                         <td>{activity.activity_due}</td>
                         <td>{activity.person_in_charge}</td>

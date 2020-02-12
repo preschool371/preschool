@@ -1,13 +1,17 @@
 import React from 'react'
 import Content from '../Content'
 import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
 
-const AboutPageTemplate = ({title, content, contentComponent}) => {
+const AboutPageTemplate = ({title, content, contentComponent, meta_description}) => {
   const PageContent = contentComponent || Content
 
   return (
     <div>
-      <main role='main' id='main'>
+      <Helmet>
+        <title>{title} | Przedszkole nr 371</title>
+      </Helmet>
+      <main role='main' id='main' tabIndex='-1'>
         <section className='hero is-primary is-bold is-medium'>
           <div className='hero-body'>
             <div className='container'>

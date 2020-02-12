@@ -10,10 +10,9 @@ const GroupsPageTemplate = ({
 }) => (
     <div>
       <Helmet>
-        <title>{title}</title>
-        <meta name='description' content={meta_description} />
+        <title>{title} | Przedszkole nr 371</title>
       </Helmet>
-      <main role='main' id='main'>
+      <main role='main' id='main' tabIndex='-1'>
         <section className='hero is-primary is-bold is-medium'>
           <div className='hero-body'>
             <div className='container'>
@@ -36,9 +35,9 @@ const GroupsPageTemplate = ({
                     <h2>
                       {groups.heading}
                     </h2>
-                    <p className='section'>
+                    <div className='section'>
                       <Group data={groups.groups} />
-                    </p>
+                    </div>
                   </div>
                 </div></div></div></div></section>
       </main>

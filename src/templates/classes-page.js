@@ -12,7 +12,7 @@ const ClassesPage = ({data}) => {
   return (
     <Layout>
       <Helmet>
-        <title>{post.frontmatter.title}</title>
+        <title>{post.frontmatter.title} | Przedszkole nr 371</title>
         <meta name='description' content={post.frontmatter.meta_description} />
       </Helmet>
       <ClassesPageTemplate
