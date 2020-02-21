@@ -13,6 +13,7 @@ import PlanPagePreview from './preview-templates/PlanPagePreview'
 import ClassesPagePreview from './preview-templates/ClassesPagePreview'
 import SchedulePagePreview from './preview-templates/SchedulePagePreview'
 import EventsPagePreview from './preview-templates/EventsPagePreview'
+import DeclarationPagePreview from './preview-templates/DeclarationPagePreview'
 
 CMS.init()
 CMS.registerMediaLibrary(cloudinary)
@@ -29,3 +30,4 @@ CMS.registerPreviewTemplate('plan', PlanPagePreview)
 CMS.registerPreviewTemplate('classes', ClassesPagePreview)
 CMS.registerPreviewTemplate('schedule', SchedulePagePreview)
 CMS.registerPreviewTemplate('events', EventsPagePreview)
+CMS.registerPreviewTemplate('declaration', DeclarationPagePreview)
