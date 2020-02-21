@@ -7,7 +7,7 @@ const AlbumPreview = ({ entry, widgetFor }) => (
     title={entry.getIn(['data', 'title'])}
     meta_description={entry.getIn(['data', 'meta_description'])}
     content={widgetFor('body')}
-    images={entry.getIn(['data', 'images'])}
+    images={entry.getIn(['data', 'album'])}
   />
 )
 
