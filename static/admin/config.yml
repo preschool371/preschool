@@ -44,15 +44,14 @@ collections:
           - {label: "Adres strony internetowej", name: "a11y_url", widget: "string"}
           - {label: "Data publikacji strony", name: "a11y_data_publikacja", widget: "date", format: "YYYY-MM-DD"}
           - {label: "Data aktualizacji strony", name: "a11y_data_aktualizacja", widget: "date", format: "YYYY-MM-DD"}
-          - {label: "Oświadczenie", name: "statement", widget: "markdown"}
+          - {label: "Oświadczenie", name: "statement", widget: "string"}
           - {label: "Data sporządzenia oświadczenia", name: "a11y_data_sporzadzenie", widget: "date", format: "YYYY-MM-DD"}
-          - {label: "Metoda audytu", name: "audit_method", widget: "markdown"}
+          - {label: "Metoda audytu", name: "audit_method", widget: "string"}
           - {label: "Osoba do kontaktu", name: "a11y_osoba", widget: "string"}
           - {label: "e-mail kontaktowy", name: "a11y_email", widget: "string"}
           - {label: "telefon kontaktowy", name: "a11y_telefon", widget: "string"}
           - {label: "Opis", name: "meta_description", widget: "hidden", default: "{{title}}"}
-          - {label: "Procedura opisana w art. 18 ustawy o dostępności cyfrowej", name: "procedure", widget: "markdown"}
-          - {label: "Dostępność architektoniczna", name: "physical_accessibility", widget: "markdown"}         
+          - {label: "Dostępność architektoniczna", name: "body", widget: "markdown"}
       - file: "src/pages/o-nas/index.md"
         label: "O nas"
         name: "about"

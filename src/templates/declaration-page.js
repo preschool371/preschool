@@ -8,7 +8,6 @@ import Layout from '../components/Layout'
 
 const DeclarationPage = ({data}) => {
   const {markdownRemark: post} = data
-
   return (
     <Layout>
       <Helmet>
@@ -19,6 +18,15 @@ const DeclarationPage = ({data}) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        a11y_url={post.frontmatter.a11y_url}
+        a11y_data_publikacja={post.frontmatter.a11y_data_publikacja}
+        a11y_data_aktualizacja={post.frontmatter.a11y_data_aktualizacja}
+        statement={post.frontmatter.statement}
+        a11y_data_sporzadzenie={post.frontmatter.a11y_data_sporzadzenie}
+        audit_method={post.frontmatter.audit_method}
+        a11y_osoba={post.frontmatter.a11y_osoba}
+        a11y_email={post.frontmatter.a11y_email}
+        a11y_telefon={post.frontmatter.a11y_telefon}
       />
     </Layout>
   )
@@ -36,6 +44,15 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        a11y_url
+        a11y_data_publikacja
+        a11y_data_aktualizacja
+        statement
+        a11y_data_sporzadzenie
+        audit_method
+        a11y_osoba
+        a11y_email
+        a11y_telefon
         meta_description
       }
     }

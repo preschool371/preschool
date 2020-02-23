@@ -16,8 +16,7 @@ const DeclarationPagePreview = ({ entry, widgetFor }) => {
       a11y_osoba={entry.getIn(['data', 'a11y_osoba'])}
       a11y_email={entry.getIn(['data', 'a11y_email'])}
       a11y_telefon={entry.getIn(['data', 'a11y_telefon'])}
-      procedure={entry.getIn(['data', 'procedure'])}
-      physical_accessibility={entry.getIn(['data', 'physical_accessibility'])}
+      content={widgetFor('body')}
     />
   )
 }
