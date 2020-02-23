@@ -25,7 +25,7 @@ const DeclarationPageTemplate = ({ title, content, contentComponent, a11y_url, a
                     Data ostatniej istotnej aktualizacji: <span id='a11y-data-aktualizacja'>{a11y_data_aktualizacja}</span>.
                   </p>
                   <p>{statement}  </p>
-                  <p>Oświadczenie sporządzono dnia: <span id='a11y-data-sporzadzenie'>{a11y_data_sporzadzenie}</span></p>
+                  <p>Oświadczenie sporządzono dnia: <span id='a11y-data-sporzadzenie'>{a11y_data_sporzadzenie}</span>.</p>
                   <p>{audit_method}</p>
                   <p>Na stronie internetowej można używać standardowych skrótów klawiaturowych przeglądarki</p>
                 </div>
