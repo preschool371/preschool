@@ -2,16 +2,15 @@
 templateKey: declaration-page
 title: Deklaracja dostępności
 a11y_url: www.przedszkole371.nq.pl
-a11y_data_publikacja: '2019-11-27'
-a11y_data_aktualizacja: '2019-11-27'
+a11y_data_publikacja: '2014-05-14'
+a11y_data_aktualizacja: '2020-03-31'
 statement: >-
-  Strona internetowa jest zgodna z ustawą z dnia 4 kwietnia 2019 r. o
+  Strona internetowa jest częściowo zgodna z ustawą z dnia 4 kwietnia 2019 r. o
   dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów
   publicznych.
-a11y_data_sporzadzenie: '2020-03-26'
+a11y_data_sporzadzenie: '2020-03-31'
 audit_method: >-
-  Deklarację sporządzono na podstawie samooceny przeprowadzonej przez podmiot
-  publiczny.
+  Podmiot zaktualizuje deklarację, jak będzie możliwe przeprowadzenie samooceny jej zgodności z ww. ustawą.
 a11y_osoba: imię i nazwisko do osoby odpowiedzialnej
 a11y_email: adres poczty elektronicznej
 a11y_telefon: numer telefonu
@@ -20,7 +19,7 @@ meta_description: Deklaracja dostępności
 Przedszkole nr 371 w Warszawie, ul. Lencewicza 5, 01-493 Warszawa. Do budynku prowadzą 3 wejścia:
 
 * wejście przeznaczone dla dzieci i opiekunów oraz osób odwiedzających przedszkole od strony ogrodu przedszkola. Furtka ogrodu wyposażona jest w domofon. Z ogrodu do budynku prowadzą dwa wejścia, oba po schodach;
-* 2 wejścia od strony drogi wewnętrznej, przeznaczone dla dostaw(?????).
+* 2 wejścia od strony drogi wewnętrznej, przeznaczone dla dostaw.
 
 Przedszkole zajmuje parter wysoki w bloku mieszkalnym:
 
