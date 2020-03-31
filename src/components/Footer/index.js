@@ -25,9 +25,9 @@ const Footer = () => {
           <Link className='column navbar-item' to='/rodo'>
             RODO
           </Link>
-          {/* <Link className='column navbar-item' to='/deklaracja-dostepnosci'>
+          <Link className='column navbar-item' to='/deklaracja-dostepnosci'>
             Deklaracja dostępności
-         </Link> */}
+          </Link>
           <Link
             className='column navbar-item'
             to='/kontakt'>
