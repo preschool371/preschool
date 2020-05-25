@@ -1,6 +1,6 @@
 ---
 templateKey: article-page
-title: Praca opiekuńczo wychowawcza od 25 maja
+title: Praca opiekuńczo - wychowawcza od 25 maja
 date: 2020-05-25T13:05:23.741Z
 meta_description: "{{title}}"
 ---
