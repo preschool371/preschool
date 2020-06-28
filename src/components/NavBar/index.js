@@ -8,7 +8,7 @@ const NavBar = ({ toggleNavbar, isActive }) => {
         <Link to='/' className='navbar-item logo'>
           <div className='preschool-logo' aria-hidden='true' />
           <p className='title custom-title preschool-logo-text'>
-            Witamy na stronie przedszkola nr 371 w Warszawie
+            Witamy na stronie Przedszkola nr 371 w Warszawie
           </p>
         </Link>
         <button
