@@ -1,9 +1,9 @@
 ---
 templateKey: home-page
 title: Przedszkole nr 371 w Warszawie
-meta_description: Strona informacyjna przedszkola nr 371 w Warszawie
+meta_description: Strona informacyjna Przedszkola nr 371 w Warszawie
 ---
-## Witamy na stronie przedszkola nr 371 w Warszawie
+## Witamy na stronie Przedszkola nr 371 w Warszawie
 
 Nasza placówka otwarta jest w godzinach 6:30 - 17:30.
 
