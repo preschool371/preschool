@@ -22,12 +22,12 @@ export default class HTML extends Component {
           <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=auto' rel='stylesheet' />
         </head>
         <body>
+          <script data-account="LhsaHhCX6U" src="https://cdn.userway.org/widget.js"></script>
           <div
             id='___gatsby'
             dangerouslySetInnerHTML={{__html: this.props.body}}
           />
           {this.props.postBodyComponents}
-          <script data-account="LhsaHhCX6U" src="https://cdn.userway.org/widget.js"></script>
         </body>
       </html>
     )
