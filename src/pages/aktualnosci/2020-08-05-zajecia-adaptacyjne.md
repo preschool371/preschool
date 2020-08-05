@@ -4,7 +4,7 @@ title: Zajęcia adaptacyjne
 date: 2020-08-05T10:29:32.403Z
 meta_description: "{{title}}"
 ---
-Serdecznie zapraszamy dzieci 3letnie, które od września rozpoczna z nami przygodę na zajęcia adaptacyjne
+Serdecznie zapraszamy dzieci 3letnie, które od września rozpoczną z nami przygodę, na zajęcia adaptacyjne
 
 data: 31 sierpnia 2020 r.
 
@@ -18,4 +18,4 @@ Prosimy o zabranie ze sobą dobrego humoru i dużej dawki słońca.
 
 Do zobaczenia
 
-Kadra Przedszkola Ne 371
+Kadra Przedszkola Nr 371
