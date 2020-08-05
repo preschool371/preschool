@@ -6,12 +6,12 @@ groups:
   groups:
     - description: Oddział trzylatków
       group_name: Smerfy
-      group_teacher: Joanna Bińkowska, Joanna Szpilman-Bartnicka
+      group_teacher: Katarzyna Załuga, Joanna Szpilman-Bartnicka
     - description: Oddział czterolatków
       group_name: Misie
-      group_teacher: Halina Świtek, Katarzyna Załuga
+      group_teacher: Joanna Bińkowska, Jadwiga Płaczkiewicz
     - description: Oddział pięciolatków
       group_name: Tygryski
-      group_teacher: Jadwiga Płaczkiewicz, Magdalena Puciłowska
+      group_teacher: Halina Świtek
   heading: Oddziały w przedszkolu nr 371 w Warszawie
 ---
