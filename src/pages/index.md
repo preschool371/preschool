@@ -5,7 +5,7 @@ meta_description: Strona informacyjna Przedszkola nr 371 w Warszawie
 ---
 ## Witamy na stronie Przedszkola nr 371 w Warszawie
 
-Nasza placówka otwarta jest w godzinach 6:30 - 17:30.
+Nasza placówka otwarta jest w godzinach 7:00 - 17:30.
 
 Uczęszcza do niej 75 dzieci podzielonych na trzy grupy: Smerfy, Misie oraz Tygryski. Jesteśmy przedszkolem bardzo kameralnym, z dużym zielonym ogrodem oraz bardzo dobrze wyposażonymi dużymi salami.
 
