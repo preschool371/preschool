@@ -12,7 +12,7 @@ godzina: 12.00
 
 miejsce: ogród Przedszkola Nr 371
 
-W zajęciach może uczestniczyć dziecko z rodzicem (1 rodzic z 1 dzieckiem - oczywiście przychodzą tylko zdrowe osoby). 
+W zajęciach może uczestniczyć dziecko z rodzicem (1 rodzic z 1 dzieckiem - oczywiście przychodzą tylko zdrowe osoby z zachowaniem reżimu sanitarnego). 
 
 Prosimy o zabranie ze sobą dobrego humoru i dużej dawki słońca. 
 
