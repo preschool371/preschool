@@ -3,7 +3,7 @@ templateKey: article-page
 title: Przerwa wakacyjna
 date: 2020-08-05T08:39:15.059Z
 meta_description: "{{title}}"
-album: https://res.cloudinary.com/przedszkole371/image/upload/f_auto,q_auto/c_fill,w_1200/v1596616907/c5b02rradpfzpunqchey.png
+album: ""
 ---
 ## Szanowni Państwo,
 
