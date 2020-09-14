@@ -23,13 +23,11 @@ export default class HTML extends Component {
         </head>
         <body>
           <script data-account="LhsaHhCX6U" src="https://cdn.userway.org/widget.js"></script>
-          <div>
            <div
              id='___gatsby'
              dangerouslySetInnerHTML={{__html: this.props.body}}
            />
            {this.props.postBodyComponents}
-          </div>
         </body>
       </html>
     )
