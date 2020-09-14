@@ -55,7 +55,6 @@ export const pageQuery = graphql`
         title
         cover
         meta_description
-        album
       }
     }
   }
